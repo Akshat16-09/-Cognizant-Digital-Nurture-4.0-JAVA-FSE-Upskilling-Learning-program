@@ -1,0 +1,48 @@
+Exercise 9.1: All Button Variants
+File: exercise9_1.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buttons</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+  <button class="btn btn-primary">Primary</button>
+  <button class="btn btn-secondary">Secondary</button>
+  <button class="btn btn-success">Success</button>
+  <button class="btn btn-danger">Danger</button>
+  <button class="btn btn-warning">Warning</button>
+  <button class="btn btn-info">Info</button>
+  <button class="btn btn-dark">Dark</button>
+  <button class="btn btn-outline-primary">Outline</button>
+</body>
+</html>
+
+Exercise 9.2: Button Group & Toggle Buttons
+File: exercise9_2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Button Groups</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+  <div class="btn-group mb-3">
+    <button class="btn btn-primary">Left</button>
+    <button class="btn btn-primary">Middle</button>
+    <button class="btn btn-primary">Right</button>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="Toggle Buttons">
+    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+    <label class="btn btn-outline-success" for="btncheck1">Toggle 1</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+    <label class="btn btn-outline-success" for="btncheck2">Toggle 2</label>
+  </div>
+</body>
+</html>

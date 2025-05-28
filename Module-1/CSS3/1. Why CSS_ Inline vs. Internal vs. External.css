@@ -1,0 +1,40 @@
+
+
+Inline Style (Directly in element):
+
+
+<h1 style="color: red;">Local Community Events</h1>
+Internal Style (Inside <style> in <head>):
+
+
+<head>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light blue background */
+        }
+    </style>
+</head>
+External Style (Linked from external file styles.css):
+
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+styles.css Example with Comments:
+
+
+/* Header styles */
+#mainHeader {
+    background-color: #333;
+    color : white;
+    text-align : center;
+    padding : 10 px;
+}
+
+/* Navigation styles */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20 px;
+    justify-content: center;
+}

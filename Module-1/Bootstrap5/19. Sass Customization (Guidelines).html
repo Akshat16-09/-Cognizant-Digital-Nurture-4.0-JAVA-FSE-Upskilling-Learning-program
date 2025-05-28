@@ -1,0 +1,14 @@
+Exercise 19.1 & 19.2: Setup with npm and Sass
+1.Install Bootstrap and Sass:
+npm init -y
+npm install bootstrap sass
+2.Customize _variables.scss:
+Create a custom.scss file:
+// custom.scss
+$primary: #e83e8c;
+$border-radius: 1rem;
+@import "../node_modules/bootstrap/scss/bootstrap";
+3.Compile it:
+npx sass custom.scss custom.css
+4.Link custom.css in your HTML.
+

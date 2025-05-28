@@ -1,0 +1,54 @@
+Exercise 10.1: Responsive Navbar
+File: exercise10_1.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <a class="navbar-brand" href="#">MiniBlog</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Posts</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-light">Search</button>
+      </form>
+    </div>
+  </nav>
+</body>
+</html>
+
+Exercise 10.2: Nav, Tabs, and Pills
+File: exercise10_2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nav Tabs & Pills</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+  <ul class="nav nav-tabs mb-3">
+    <li class="nav-item"><a class="nav-link active" href="#">Tab 1</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Tab 2</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Tab 3</a></li>
+  </ul>
+
+  <ul class="nav nav-pills">
+    <li class="nav-item"><a class="nav-link active" href="#">Pill 1</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Pill 2</a></li>
+  </ul>
+</body>
+</html>

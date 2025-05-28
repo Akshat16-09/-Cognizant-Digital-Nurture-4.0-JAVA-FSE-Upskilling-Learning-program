@@ -1,0 +1,24 @@
+/* Navigation menu */
+.nav-menu {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+/* Link pseudo-classes */
+.nav-menu a:link {
+    color: white;
+    text-decoration: none;
+}
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+.nav-menu a:active {
+    color: yellow;
+}
+.nav-menu a:visited {
+    color: lightgray;
+}

@@ -1,0 +1,64 @@
+Scenario:
+Users report layout issues on small screens. Your task is to debug and test the layout using Chrome DevTools and VS Code.
+
+Objective:
+Use browser tools and editor features to test, inspect, and debug your CSS.
+
+Tasks and How to Do Them:
+🔹 1. Use Chrome's Device Toolbar to Simulate Screen Sizes
+Steps:
+
+Open your portal in Google Chrome.
+
+Press F12 or right-click anywhere → Inspect.
+
+Click the Toggle device toolbar icon (or press Ctrl + Shift + M).
+
+Choose devices like iPhone X, iPad, or set custom dimensions.
+
+Observe layout changes live.
+
+🔹 2. Inspect Applied Styles and Test Live CSS Changes
+Steps:
+
+In DevTools, use the Select element icon (top-left corner of DevTools).
+
+Click any problematic element (e.g., .eventCard or nav).
+
+In the Styles tab, view all active CSS rules.
+
+Edit styles live by clicking on properties.
+
+Try changing flex-direction, font-size, width, etc., to test fixes.
+
+Use the Computed tab to see box model (margin, border, padding, size).
+
+Example:
+You can try changing:
+.nav-menu {
+    flex-direction: row; /* Try switching to column */
+}
+🔹 3. Use Network Tab to Check if CSS is Loaded
+Steps:
+
+In DevTools, open the Network tab.
+
+Refresh the page (Ctrl + R).
+
+Look for styles.css in the list.
+
+Check status:
+
+200 OK = CSS is successfully loaded.
+
+404 = File not found → check the path in <link rel="stylesheet">.
+
+
+Bonus Tips (VS Code)
+Use Live Server extension to quickly preview and refresh changes.
+
+Install Prettier or use Shift + Alt + F to format CSS for readability.
+
+Use Emmet abbreviations to write CSS faster (e.g., m10 expands to margin: 10px;).
+
+

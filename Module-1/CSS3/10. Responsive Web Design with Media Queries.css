@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    /* Stack navigation links */
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Smaller font and images */
+    body {
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .eventCard {
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+/* Bonus: Flexbox for event layout */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

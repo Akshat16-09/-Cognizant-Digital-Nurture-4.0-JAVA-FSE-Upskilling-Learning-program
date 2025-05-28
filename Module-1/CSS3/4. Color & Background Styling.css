@@ -1,0 +1,24 @@
+/* HEX color */
+body {
+    color: #333;
+}
+
+/* RGBA color */
+.eventCard {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Background image with fallback */
+body {
+    background-color: #e0e0e0;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Gradient for section headers */
+section > h2 {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 10px;
+}

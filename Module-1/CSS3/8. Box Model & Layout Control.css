@@ -1,0 +1,19 @@
+/* Event card spacing */
+.eventCard {
+    border: 2px solid #999;
+    padding: 20px;
+    margin: 15px;
+}
+
+/* Highlight selected input */
+.selected {
+    outline: 2px solid blue;
+}
+
+/* Visibility comparison */
+.hidden-example {
+    visibility: hidden;
+}
+.display-none-example {
+    display: none;
+}

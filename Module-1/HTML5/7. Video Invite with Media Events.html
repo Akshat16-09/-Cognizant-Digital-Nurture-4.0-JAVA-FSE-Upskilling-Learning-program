@@ -1,0 +1,11 @@
+<video width="320" controls oncanplay="document.getElementById('videoMsg').innerText = 'Video ready to play';">
+  <source src="invite.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<div id="videoMsg"></div>
+
+<script>
+  window.onbeforeunload = function () {
+    return "Are you sure you want to leave this page?";
+  };
+</script>
